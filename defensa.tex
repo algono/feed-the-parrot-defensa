@@ -1,7 +1,21 @@
 \documentclass{beamer}
 
+%\usetheme{Berlin}
+%\usecolortheme{spruce}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+\useoutertheme{metropolis}
+\useinnertheme{metropolis}
+\usefonttheme{metropolis}
+\usecolortheme{spruce}
+\setbeamercolor{background canvas}{bg=white}
+
+\setbeamertemplate{section in toc}[ball unnumbered]
+\setbeamertemplate{subsection in toc}[ball unnumbered]
+
 \title{Al Loro: \\Lector de \emph{feeds RSS} para asistente de voz}
-\author{\emph{Autor:} Alejandro Gómez Noé\\[0.5em]\emph{Tutor:} Vicente Pelechano Ferragud}
+\author[Alejandro Gómez Noé]{\emph{Autor:} Alejandro Gómez Noé\\[0.3em]\emph{Tutor:} Vicente Pelechano Ferragud}
 \institute{ETSINF - Universidad Politécnica de Valencia}
 \date{Curso 2020-2021}
 
@@ -11,8 +25,30 @@
     \titlepage
   \end{frame}
   
-  \begin{frame}
-    Hello
+  \begin{frame}{Índice general}
+    \tableofcontents
   \end{frame}
+
+  \section{Introducción}
+  
+  \begin{frame}[t]{Intoducción}
+    This is the first slide
+  \end{frame}
+
+  \section{Motivación}
+  
+  \section{Estado del arte}
+  
+  \section{Propuesta de solución}
+  
+  \section{Diseño, arquitectura, esquema de la solución realizada}
+  
+  \section{Desarrollo / Implementación de la propuesta}
+  
+  \section{Demo}
+  
+  \section{Resultados obtenidos}
+  
+  \section{Conclusiones} % (y trabajos futuros)
 
 \end{document}
