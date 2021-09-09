@@ -70,18 +70,20 @@
   \end{frame}
 
   \section{Motivación}
-
-  \newcommand{\includecenteredgraphics}[2]{\hspace{.1em}\raisebox{-.35\height}{\includegraphics[scale=#1]{#2}}}
+  
+  \newcommand{\includecenteredgraphicsb}[3][.35]{\raisebox{-#1\height}{\includegraphics[scale=#2]{#3}}}
+  \newcommand{\includecenteredgraphicsl}[3][.35]{\includecenteredgraphicsb[#1]{#2}{#3}\hspace{.1em}}
+  \newcommand{\includecenteredgraphicsr}[3][.35]{\hspace{.1em}\includecenteredgraphicsb[#1]{#2}{#3}}
  
   \begin{frame}{Motivación}
     \begin{itemize}
       \setlength\itemsep{1.5em}
       \item Entender más sobre los \textbf{servicios en la nube}
-      \includecenteredgraphics{.35}{aws-lambda-logo.png}
+      \includecenteredgraphicsr{.35}{aws-lambda-logo.png}
       \item Aprender un lenguaje de programación (\textbf{TypeScript})
-      \includecenteredgraphics{.02}{typescript-logo.png}
+      \includecenteredgraphicsr{.02}{typescript-logo.png}
       \item Introducirme en un campo nuevo (\textbf{asistentes de voz})
-      \includecenteredgraphics{1}{amazon-alexa.png}
+      \includecenteredgraphicsr{1}{amazon-alexa.png}
     \end{itemize}
   \end{frame}
 
@@ -111,6 +113,18 @@
         (Apple) Siri
       \end{column}
     \end{columns}
+  \end{frame}
+
+  \begin{frame}{\includecenteredgraphicsl{.05}{asistente-google-logo.png} Asistente de Google}
+    Asistente de Google
+  \end{frame}
+
+  \begin{frame}{\includecenteredgraphicsl[.22]{.8}{amazon-alexa.png} Amazon Alexa}
+    Amazon Alexa
+  \end{frame}
+
+  \begin{frame}{\includecenteredgraphicsl{.1}{apple-siri-logo.png} Siri (Apple)}
+    Apple Siri
   \end{frame}
 
   \begin{frame}[c]{Tabla comparativa}
