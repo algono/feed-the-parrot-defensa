@@ -3,6 +3,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % Allows bold italic text in title
 
+\usepackage{array}
+
 %\usetheme{Berlin}
 %\usecolortheme{spruce}
 
@@ -84,7 +86,24 @@
   \end{frame}
 
   \section{Estado del arte}
-  
+ 
+  \begin{frame}[c]{Asistentes de voz más populares}
+    \begin{tabular}{@{}|>{\raggedright\small}p{0.22\linewidth}|>{\raggedright\small}p{0.22\linewidth}|>{\raggedright\small}p{0.22\linewidth}|>{\raggedright\arraybackslash\small}p{0.22\linewidth}| @{}}
+      \hline
+      & \normalsize Google & \normalsize \textbf{Alexa} & \normalsize Siri \\
+      \hline
+      Kits de desarrollo & \emph{Actions} & \emph{Skills} & \emph{SiriKit} \\
+      \hline
+      Lenguajes soportados & JavaScript (Node.js) & JavaScript (Node.js), Python & Swift, Objective-C \\
+      \hline
+      Plataformas & Android, Google Home & Amazon Echo, Fire TV, Android e iOS & iOS, HomePod \\
+      \hline
+      Mayor enfoque & Búsqueda por Internet & \emph{Skills}, domótica, entretenimiento & Productividad \\
+      \hline 
+    \end{tabular}
+   %\caption{Comparativa de los asistentes de voz más populares}
+  \end{frame}
+
   \section{Propuesta de solución}
   
   \section{Diseño, arquitectura, esquema de la solución realizada}
