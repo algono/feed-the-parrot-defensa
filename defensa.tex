@@ -62,9 +62,9 @@
         \includegraphics[width=.46\textwidth]{echo-dot-2.png}
         \centering \vspace{0.5em}
         
-        \footnotesize
+        {\footnotesize
         Dispositivo Amazon Echo Dot\\
-        (4ª Generación, con reloj)
+        (4ª Generación, con reloj)}
       \end{column}
     \end{columns}
   \end{frame}
@@ -158,9 +158,9 @@
       \begin{itemize}
         \item Sistema de \textbf{búsqueda por internet}\\
         \vspace{.5em}
-        \small Su porcentaje de respuestas sin responder es de un 23\%, mientras que la de los demás asistentes no llega al 10\%\\
+        {\small Su porcentaje de respuestas sin responder es de un 23\%, mientras que la de los demás asistentes no llega al 10\%}\\
         \vspace{.3em}
-        \footnotesize(Estudio: \textit{SEMrush}, 2020)
+        {\footnotesize(Estudio: \textit{SEMrush}, 2020)}
       \end{itemize}
     }
     \only<3>
@@ -178,7 +178,9 @@
     \only<4>
     {
       Kit de desarrollo: \textbf{\emph{Alexa Skills}}
+      \vspace{.7em}
       \begin{itemize}
+        \setlength\itemsep{1.5em}
         \item Curva de aprendizaje intermedia
         \item Enfocado a \textbf{desarrolladores web}
         \item \textbf{Soporte} para \textbf{lenguajes muy utilizados} (\emph{JavaScript, Python})
@@ -187,7 +189,46 @@
   \end{frame}
 
   \begin{frame}[label=apple-siri]{\includecenteredgraphicsl{.1}{apple-siri-logo.png} (Apple) Siri}
-    Apple Siri
+    \only<1>
+    {
+      \textbf{Ventajas:}
+      \vspace{1.5em}
+      \begin{itemize}
+        \setlength\itemsep{1.5em}
+        \item \textbf{Muy popular} entre \textbf{usuarios} de productos \textbf{\emph{Apple}}
+        \item Mayor \textbf{integración} con \textbf{apps} de \textbf{\emph{iOS}}
+        \item Enfoque en la \textbf{productividad}
+      \end{itemize}
+    }
+    \only<2>
+    {
+      \textbf{Inconvenientes:}
+      \vspace{1.5em}
+      \begin{itemize}
+        \setlength\itemsep{1.5em}
+        \item \textbf{Exclusivo} de productos \textbf{\emph{Apple}} {\small(menor cuota de mercado)}
+        \item \textbf{Aplicaciones} personalizadas \textbf{requieren} una \textbf{app} para \textbf{\emph{iOS}}
+        \item \textbf{Alta complejidad} para \textbf{desarrollar aplicaciones}
+      \end{itemize}
+    }
+    \only<3>
+    {
+      Kit de desarrollo: \textbf{\emph{SiriKit}}
+      \vspace{.7em}
+      \begin{itemize}
+        \setlength\itemsep{1.5em}
+        \item Fuertemente acoplado al sistema de \textbf{\textit{iOS}}
+        \item \textbf{Menos abierto} a nuevos desarrolladores
+        \item \textbf{Requisitos muy específicos}:
+        \vspace{.5em}
+          \begin{itemize}
+            \setlength\itemsep{.7em}
+            \item Conocimientos en el lenguaje \textbf{\emph{Swift}} (propio de \emph{Apple})
+            \item Un \textbf{ordenador} de la familia \textbf{\emph{Mac}}
+            (acceso al editor \emph{XCode})
+          \end{itemize}
+      \end{itemize}
+    }
   \end{frame}
 
   \begin{frame}[c]{Tabla comparativa}
