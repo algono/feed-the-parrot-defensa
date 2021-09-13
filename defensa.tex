@@ -58,13 +58,29 @@
         \end{itemize}
       \end{column}
       \begin{column}{.49\textwidth}
-        \includegraphics[width=.46\textwidth]{echo-dot.png}
-        \includegraphics[width=.46\textwidth]{echo-dot-2.png}
-        \centering \vspace{0.5em}
+        \only<1>
+        {
+          \includegraphics[width=.46\textwidth]{echo-dot.png}
+          \includegraphics[width=.46\textwidth]{echo-dot-2.png}
+          \centering
+          {
+          \footnotesize
+          Dispositivo Amazon Echo Dot\\
+          (4ª Generación, con reloj)
+          }
+        }
+        \only<2>
+        {
+          \includegraphics[width=\textwidth,trim={0 45cm 0 40cm},clip]
+          {echo-dot-3-gen.png}
+          \centering
+          {
+          \footnotesize
+          Dispositivo Amazon Echo Dot\\
+          (3ª Generación)
+          }
+        }
         
-        {\footnotesize
-        Dispositivo Amazon Echo Dot\\
-        (4ª Generación, con reloj)}
       \end{column}
     \end{columns}
   \end{frame}
