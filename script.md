@@ -42,7 +42,7 @@ Esta se ha basado principalmente en tres aspectos:
 
 - Aprender un lenguaje de programación que es bastante popular últimamente, es moderno y ha tenido muy buen recibimiento durante los últimos años: TypeScript. Está basado en JavaScript (el llamado "lenguaje de la web") y añade funcionalidades muy útiles para encontrar errores y, en general, mejorar la experiencia del desarrollador.
 
-- Similar a lo anterior, introducirme en el campo de los asistentes de voz; que como ya he comentado antes, tiene un futuro muy prometedor.
+- Similar a lo anterior, introducirme en el campo de los asistentes de voz, el cual tiene un futuro muy prometedor.
 
 # Estado del arte
 
