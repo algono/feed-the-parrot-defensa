@@ -33,6 +33,18 @@ Uno de los aspectos más interesantes de Alexa como desarrollador Software es la
 
 Esto tiene mucho futuro a nivel de negocio, y ya se están empezando a ver estrategias de monetización como skills premium o suscripciones en grandes empresas.
 
+# Motivación
+
+Dicho todo esto: ¿cuál ha sido mi motivación de cara a realizar este trabajo?
+Esta se ha basado principalmente en tres aspectos:
+
+- Saber más acerca de los servicios en la nube. Se trata de un área con mucha demanda y bastante novedosa, y me resulta bastante interesante en cuanto a la infraestructura que requiere y aquello que ofrece.
+
+- Aprender un lenguaje de programación que es bastante popular últimamente, es moderno y ha tenido muy buen recibimiento durante los últimos años: TypeScript. Está basado en JavaScript (el llamado "lenguaje de la web") y añade funcionalidades muy útiles para encontrar errores y, en general, mejorar la experiencia del desarrollador.
+
+- Similar a lo anterior, introducirme en el campo de los asistentes de voz; que como ya he comentado antes, tiene un futuro muy prometedor.
+
+# TODO: ADAPTAR AL NUEVO LAYOUT
 ## ¿Qué es una feed?
 
 ### Diapositiva 1
