@@ -58,7 +58,13 @@ Los asistentes de voz más conocidos son: el Asistente de Google, Amazon Alexa, 
 
 En primer lugar, veamos el Asistente de Google.
 
-Entre sus ventajas se encuentran: su popularidad; el hecho de que venga instalado por defecto en Android; y su sistema de búsqueda por internet, que destaca sobre el resto (lo cual tiene sentido porque la empresa que lo creó, Google, es conocida por tener el buscador más importante del mundo).
+Entre sus ventajas se encuentran:
+
+- su popularidad;
+
+- el hecho de que venga instalado por defecto en Android;
+
+- y su sistema de búsqueda por internet, que destaca sobre el resto (lo cual tiene sentido porque la empresa que lo creó, Google, es conocida por tener el buscador más importante del mundo).
 
 ### Kit de desarrollo
 
@@ -67,6 +73,34 @@ Su kit de desarrollo para crear aplicaciones se llama "Google Actions", y tiene 
 Esto se puede ver en el hecho que su principal herramienta para programar está basada en modelos mediante diagramas, lo cual hace el proceso más visual.
 
 Como los modelos de diagramas pueden ser demasiado simples para según qué aplicaciones, existe la funcionalidad de *webhooks*, que permite crear programas externos que se comuniquen con la aplicación. 
+
+## Amazon Alexa
+
+### Ventajas
+
+En segundo lugar, se encuentra Amazon Alexa.
+
+Sus puntos fuertes son:
+
+- su popularidad entre los dispositivos "Smart Home", los asistentes de hogar que hemos visto antes;
+
+- la capacidad de integración con otras plataformas, que es superior al resto porque Amazon se ha enfocado mucho en eso;
+
+- y la mayor inversión en su sistema de skills, lo cual está muy relacionado con el punto anterior.
+
+### Inconvenientes
+
+Sin embargo, tiene un principal inconveniente: su sistema de búsqueda por internet es significativamente peor que el de los demás.
+
+Un estudio del año 2020 reveló que no era capaz de responder a un 23% de las preguntas que se le hacían, mientras que el porcentaje de error del resto de asistentes probados era menor del 10%.
+
+### Kit de desarrollo
+
+Su kit de desarrollo, las skills, tienen una curva de aprendizaje mayor que el asistente de Google, pero menor que Siri.
+
+Como el principal objetivo de Amazon es que un gran número de grandes empresas integre sus sistemas con Alexa mediante la creación de skills, su principal enfoque es la facilidad de uso para quien trabaja en desarrollo web: un mercado enorme que comparte muchas tecnologías con los asistentes de voz; ya que, al fin y al cabo, la infraestructura de estos últimos está basada en servicios web.
+
+Para ello, da soporte a lenguajes muy utilizados en este campo: JavaScript y Python.
 
 # TODO: ADAPTAR AL NUEVO LAYOUT
 ## ¿Qué es una feed?
