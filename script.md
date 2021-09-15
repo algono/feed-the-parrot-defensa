@@ -136,6 +136,18 @@ De hecho, los requisitos sólo para empezar son **muy** específicos:
 
 - Y el desarrollador debe haber adquirido un ordenador de la familia *Mac* para tener acceso al editor *XCode*, el cual es necesario para poder crear aplicaciones para iOS.
 
+## Tabla comparativa
+
+Para resumir esta sección, tenemos una tabla comparativa de los tres asistentes, donde se comparan:
+
+- El kit de desarrollo que utiliza cada uno,
+
+- qué lenguajes de programación soportan,
+
+- en qué plataformas están disponibles,
+
+- y su mayor enfoque de cara a ser competitivo frente al resto.
+
 # TODO: ADAPTAR AL NUEVO LAYOUT
 ## ¿Qué es una feed?
 
