@@ -44,6 +44,30 @@ Esta se ha basado principalmente en tres aspectos:
 
 - Similar a lo anterior, introducirme en el campo de los asistentes de voz; que como ya he comentado antes, tiene un futuro muy prometedor.
 
+# Estado del arte
+
+## Asistentes de voz más populares
+
+Ahora vamos a echar un vistazo al mercado actual de los asistentes de voz, y a hacer una comparativa entre ellos.
+
+Los asistentes de voz más conocidos son: el Asistente de Google, Amazon Alexa, y Siri (de la empresa Apple).
+
+## Asistente de Google
+
+### Ventajas
+
+En primer lugar, veamos el Asistente de Google.
+
+Entre sus ventajas se encuentran: su popularidad; el hecho de que venga instalado por defecto en Android; y su sistema de búsqueda por internet, que destaca sobre el resto (lo cual tiene sentido porque la empresa que lo creó, Google, es conocida por tener el buscador más importante del mundo).
+
+### Kit de desarrollo
+
+Su kit de desarrollo para crear aplicaciones se llama "Google Actions", y tiene un mayor enfoque a desarrolladores principiantes.
+
+Esto se puede ver en el hecho que su principal herramienta para programar está basada en modelos mediante diagramas, lo cual hace el proceso más visual.
+
+Como los modelos de diagramas pueden ser demasiado simples para según qué aplicaciones, existe la funcionalidad de *webhooks*, que permite crear programas externos que se comuniquen con la aplicación. 
+
 # TODO: ADAPTAR AL NUEVO LAYOUT
 ## ¿Qué es una feed?
 
