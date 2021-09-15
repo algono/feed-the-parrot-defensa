@@ -102,6 +102,40 @@ Como el principal objetivo de Amazon es que un gran número de grandes empresas 
 
 Para ello, da soporte a lenguajes muy utilizados en este campo: JavaScript y Python.
 
+## (Apple) Siri
+
+### Ventajas
+
+Por último tenemos a Siri.
+
+- Su principal ventaja es que es muy querido entre los usuarios de productos Apple, que es donde se encuentra disponible.
+
+- También tiene una mayor integración con las apps para iOS, ya que es el sistema operativo de Apple.
+
+- Y su mayor enfoque es la productividad: aumentar la rapidez para realizar tareas repetitivas, especialmente entre sus dispositivos móviles.
+
+### Inconvenientes
+
+Los inconvenientes que tiene están íntimamente relacionados con las ventajas:
+
+- En primer lugar, Siri sólo está disponible para productos Apple. Aunque es una estrategia similar a la de Google con su asistente, para Siri resulta una mayor desventaja debido a la menor cuota de mercado de estos productos frente a sistemas como Android.
+
+- En segundo lugar, las aplicaciones personalizadas requieren una app para iOS asociada. Esto lleva a una mayor integración como vimos antes, pero lleva a una gran falta de flexibilidad.
+
+- Por último, desarrollar aplicaciones para Siri es más complejo que para el resto de asistentes. Ahora veremos los motivos con más detalle al hablar de su kit de desarrollo, llamado SiriKit.
+
+### Kit de desarrollo
+
+SiriKit, como acabamos de ver, está muy ligado al sistema iOS.
+
+Por este motivo, es más difícil para nuevos desarrolladores introducirse en el desarrollo de aplicaciones para Siri.
+
+De hecho, los requisitos sólo para empezar son **muy** específicos:
+
+- Uno debe saber sobre el lenguaje de programación *Swift*, el cual se usa mayoritariamente en el desarrollo de servicios para productos de Apple;
+
+- Y el desarrollador debe haber adquirido un ordenador de la familia *Mac* para tener acceso al editor *XCode*, el cual es necesario para poder crear aplicaciones para iOS.
+
 # TODO: ADAPTAR AL NUEVO LAYOUT
 ## ¿Qué es una feed?
 
