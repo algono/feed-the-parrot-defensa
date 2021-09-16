@@ -295,14 +295,34 @@
       \end{column}
     \end{columns}
   \end{frame}
-  
-  \begin{frame}{¿Qué es una feed?}
+
+  \begin{frame}{Problemas con las noticias en Alexa}
     \begin{itemize}
       \setlength\itemsep{1.5em}
-      \item Las \textbf{feeds} son \textbf{listados} que se \textbf{actualizan periódicamente}
-      \item Suelen estar alojadas en una \textbf{página web}
-      \item Habitual en sitios de \textbf{noticias}, \textbf{blogs}, \textbf{podcasts}\dots
+      \only<1>
+      {
+      \item[\includecenteredgraphicsl{.2}{rss-logo.png}] \textbf{RSS}:
+      \item Popular en los años 2000
+      \item Muy \textbf{extendido}
+      \item Ahora en \textbf{desuso} (poco mantenimiento)
+      }
+      \only<2>
+      {
+      \item[\includecenteredgraphicsl{.16}{json-logo.png}] \textbf{JSON}:
+      \item \textbf{Poco extendido} en este ámbito
+      \item \textbf{Requiere implementación específica}
+      } 
     \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Problemas con las noticias en Alexa}
+    \textbf{Conclusión}:
+    \vspace{1em} 
+    \begin{itemize}
+      \setlength\itemsep{1.5em}
+      \item \textbf{No suelen funcionar}
+      \item El \textbf{usuario} \textbf{depende} de los \textbf{creadores} de cada web para que incluyan \textbf{soporte}
+    \end{itemize} 
   \end{frame}
 
   \section{Diseño, arquitectura, esquema de la solución realizada}

@@ -159,23 +159,28 @@ Para ello, se busca profundizar en aquellos aspectos que los unen:
 
 Sin embargo, también es importante mostrar aquello que diferencia a los asistentes de voz: la interfaz, basada en comandos activados por voz, y con un gran hincapié en la comunicación fluida y el modelo pregunta-respuesta.
 
-# TODO: ADAPTAR AL NUEVO LAYOUT
-## ¿Qué es una feed?
+## Creación de una skill
 
-### Diapositiva 1
+Para ello, se va a implementar una skill que sirva de ejemplo e incluya todo lo comentado anteriormente: Al Loro.
 
-El siguiente concepto clave que es necesario comentar es el de las feeds. Se tratan de listas disponibles en páginas web asociadas a noticias, blogs, podcasts... aquel tipo de contenido que esté basado en artículos que se añaden cada cierto tiempo.
+Se trata de una skill cuyo objetivo será mejorar la integración del sistema de noticias de Alexa con los servicios web de noticias que existen.
 
-El objetivo de tener un servicio de feeds es que los usuarios tengan un sistema centralizado donde gestionar todas sus noticias fácilmente. 
+## Sistema de noticias de Alexa
 
-Por desgracia, este servicio ha caído en desuso debido a las redes sociales, siendo su pico de popularidad durante los años 90 y principios de los 2000; pero aún está disponible en muchos sitios web que o son antiguos o utilizan servicios para mostrar sus artículos que crean feeds por defecto.
+Para entender un poco mejor el problema que Al Loro trata de resolver, hay que explicar en qué consiste el sistema de noticias de Alexa.
 
-### Diapositiva 2
+Mediante este sistema, los administradores de las plataformas de noticias pueden incluir un enlace a una página web con una feed, que es un listado con un formato especial estandarizado para contenido que se actualiza cada cierto tiempo como son las noticias, y Alexa crea automáticamente una skill que lee los artículos en orden.
 
-A pesar de todo esto, Alexa hace uso de las feeds en su sistema de noticias (probablemente por su presencia extendida y facilidad para integrar con otros servicios).
-En él, los administradores de las plataformas de noticias pueden incluir un enlace a una feed, y Alexa crea automáticamente una skill que lee los artículos en orden.
+Los formatos que soporta son dos:
 
-Los formatos de feed que soporta son:
+### RSS
 
-- RSS, que es del que hace uso la skill que he desarrollado para este trabajo, "Al Loro";
-- y JSON, que aunque es el recomendado por Alexa, su uso no está extendido como el anterior, y debe implementarse a propósito para poder utilizarse con Alexa.
+- El primero es RSS, que era un formato popular a principios de los 2000 y está muy extendido, pero ahora está en desuso y las webs no suelen mantenerlo. A pesar de esto, como es el que considero que tiene más posibilidades de resurgir porque muchas webs ya tienen una implementación básica, es el formato que utiliza "Al Loro".
+
+### JSON
+
+- Y el segundo es JSON, que aunque es el recomendado por Alexa, su uso para este caso concreto no está extendido como el anterior, y debe implementarse a propósito para poder utilizarse con Alexa. No creo que muchas webs de noticias estén dispuestas a hacer eso.
+
+### Conclusión
+
+En resumen, que como el primer formato está en desuso y el segundo requiere un trabajo extra, es muy complicado encontrar webs de noticias que funcionen bien con este sistema. Además, el usuario depende de los creadores de cada web para que incluyan soporte para Alexa, y no creo que eso tenga mucho sentido, sobretodo teniendo en cuenta que el campo de los asistentes de voz es relativamente nuevo y poco explorado.
