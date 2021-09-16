@@ -209,6 +209,8 @@ El sistema que conforma Al Loro está dividido en cuatro subsistemas:
 
 # Demo
 
+Y ahora vamos a verlo puesto en práctica mediante una demostración.
+
 # Resultados obtenidos
 
 Para terminar, se han obtenido los siguientes resultados:
