@@ -148,6 +148,17 @@ Para resumir esta sección, tenemos una tabla comparativa de los tres asistentes
 
 - y su mayor enfoque de cara a ser competitivo frente al resto.
 
+# Propuesta de solución
+
+El principal objetivo de este trabajo es crear un puente entre la creación de skills en Alexa y el desarrollo de aplicaciones en otras áreas más consolidadas.
+Para ello, se busca profundizar en aquellos aspectos que los unen:
+
+- Los puntos en común con el desarrollo *backend* (una especialidad dentro del desarrollo web);
+
+- y cómo integrar una skill con otros servicios, como apps, bases de datos, etcétera.
+
+Sin embargo, también es importante mostrar aquello que diferencia a los asistentes de voz: la interfaz, basada en comandos activados por voz, y con un gran hincapié en la comunicación fluida y el modelo pregunta-respuesta.
+
 # TODO: ADAPTAR AL NUEVO LAYOUT
 ## ¿Qué es una feed?
 
