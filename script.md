@@ -38,11 +38,11 @@ Esto tiene mucho futuro a nivel de negocio, y ya se están empezando a ver estra
 Dicho todo esto: ¿cuál ha sido mi motivación de cara a realizar este trabajo?
 Esta se ha basado principalmente en tres aspectos:
 
-- Saber más acerca de los servicios en la nube. Se trata de un área con mucha demanda y bastante novedosa, y me resulta bastante interesante en cuanto a la infraestructura que requiere y aquello que ofrece.
+- En primer lugar, saber más acerca de los servicios en la nube. Se trata de un área con mucha demanda y bastante novedosa, y me resulta bastante interesante en cuanto a la infraestructura que requiere y aquello que ofrece.
 
-- Aprender un lenguaje de programación que es bastante popular últimamente, es moderno y ha tenido muy buen recibimiento durante los últimos años: TypeScript. Está basado en JavaScript (el llamado "lenguaje de la web") y añade funcionalidades muy útiles para encontrar errores y, en general, mejorar la experiencia del desarrollador.
+- En segundo lugar, aprender un lenguaje de programación que es bastante popular últimamente, es moderno y ha tenido muy buen recibimiento durante los últimos años: TypeScript. Está basado en JavaScript (el llamado "lenguaje de la web") y añade funcionalidades muy útiles para encontrar errores y, en general, mejorar la experiencia del desarrollador.
 
-- De forma similar a lo anterior, introducirme en el campo de los asistentes de voz, el cual tiene un futuro muy prometedor.
+- Y por último, de forma similar a lo anterior, introducirme en el campo de los asistentes de voz, el cual tiene un futuro muy prometedor.
 
 # Estado del arte
 
