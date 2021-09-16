@@ -207,14 +207,6 @@ El sistema que conforma Al Loro está dividido en cuatro subsistemas:
 
 - Y un sistema de autenticación para poder identificarse en la app como uno de los usuarios de la skill.
 
-El subsistema más complejo es el de autenticación, y el proceso a seguir es el siguiente:
-
-- Primero, el usuario pide a la skill que genere un código para autenticarse. Ésta lo crea, lo almacena en una base de datos específica y se lo dicta al usuario.
-
-- Después, el usuario introduce dicho código en la app, que a su vez lo envía a un servicio de autenticación que se encarga de comprobar que el código coincide con uno de los existentes, y si es así genera un identificador para la base de datos de feeds.
-
-- Si el código era correcto, la app utilizará dicho identificador para autenticarse y así poder gestionar las feeds del usuario.
-
 # Demo
 
 # Resultados obtenidos
