@@ -96,7 +96,7 @@ Un estudio del año 2020 reveló que no era capaz de responder a un 23% de las p
 
 ### Kit de desarrollo
 
-Su kit de desarrollo, las skills, tienen una curva de aprendizaje mayor que el asistente de Google, pero menor que Siri.
+Su kit de desarrollo, Alexa skills, tiene una curva de aprendizaje mayor que el asistente de Google, pero menor que Siri.
 
 Como el principal objetivo de Amazon es que un gran número de grandes empresas integre sus sistemas con Alexa mediante la creación de skills, su principal enfoque es la facilidad de uso para quien trabaja en desarrollo web: un mercado enorme que comparte muchas tecnologías con los asistentes de voz; ya que, al fin y al cabo, la infraestructura de estos últimos está basada en servicios web.
 
