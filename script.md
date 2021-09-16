@@ -184,3 +184,59 @@ Los formatos que soporta son dos:
 ### Conclusión
 
 En resumen, que como el primer formato está en desuso y el segundo requiere un trabajo extra, es muy complicado encontrar webs de noticias que funcionen bien con este sistema. Además, el usuario depende de los creadores de cada web para que incluyan soporte para Alexa, y no creo que eso tenga mucho sentido, sobretodo teniendo en cuenta que el campo de los asistentes de voz es relativamente nuevo y poco explorado.
+
+# Diseño, arquitectura, esquema de la solución realizada
+
+Entonces, ¿cómo ha sido diseñado Al Loro para resolver todo esto?
+
+El sistema que conforma Al Loro está dividido en cuatro subsistemas:
+
+## Skill
+
+- La skill, que se comunica con Alexa para leer las feeds disponibles al usuario;
+
+## App
+
+- Una app para que el usuario pueda gestionar sus feeds, ya que hacerlo por voz sería poco práctico ya que las feeds son URLs;
+
+## Base de datos
+
+- Una base de datos común para la skill y la app donde se almacenan las feeds de cada usuario;
+
+## Servicio de autenticación
+
+- Y un sistema de autenticación para poder identificarse en la app como uno de los usuarios de la skill.
+
+El subsistema más complejo es el de autenticación, y el proceso a seguir es el siguiente:
+
+- Primero, el usuario pide a la skill que genere un código para autenticarse. Ésta lo crea, lo almacena en una base de datos específica y se lo dicta al usuario.
+
+- Después, el usuario introduce dicho código en la app, que a su vez lo envía a un servicio de autenticación que se encarga de comprobar que el código coincide con uno de los existentes, y si es así genera un identificador para la base de datos de feeds.
+
+- Si el código era correcto, la app utilizará dicho identificador para autenticarse y así poder gestionar las feeds del usuario.
+
+# Demo
+
+# Resultados obtenidos
+
+Para terminar, se han obtenido los siguientes resultados:
+
+- Se ha implementado una skill de noticias ("Al Loro"),
+
+- Se ha creado una app para gestionar las feeds,
+
+- Y se ha diseñado un servicio de autenticación que las conecta.
+
+# Conclusiones
+
+En cuanto a las conclusiones que se extraen de estos resultados, las principales son:
+
+- Que se ha conseguido enseñar cómo integrar otros servicios con una skill,
+
+- Y que la memoria refleja el proceso de creación de una interfaz guiada por voz.
+
+Además, lo que se ha tratado en este trabajo puede ayudar a desarrolladores que quieran introducirse en la creación de skills, que al fin y al cabo era el objetivo inicial.
+
+# Gracias
+
+Esto ha sido todo, gracias por escucharme.
