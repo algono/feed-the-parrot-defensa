@@ -169,7 +169,7 @@ Se trata de una skill cuyo objetivo será mejorar la integración del sistema de
 
 Para entender un poco mejor el problema que Al Loro trata de resolver, hay que explicar en qué consiste el sistema de noticias de Alexa.
 
-Mediante este sistema, los administradores de las plataformas de noticias pueden incluir un enlace a una página web con una feed, que es un listado con un formato especial estandarizado para contenido que se actualiza cada cierto tiempo como son las noticias, y Alexa crea automáticamente una skill que lee los artículos en orden.
+Mediante este sistema, los administradores de las plataformas de noticias pueden incluir un enlace a una página web con una feed; que es un listado con un formato especial estandarizado para contenido que se actualiza cada cierto tiempo como son las noticias. Una vez hecho esto, Alexa crea automáticamente una skill que lee los artículos en orden.
 
 Los formatos que soporta son dos:
 
