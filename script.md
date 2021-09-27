@@ -1,6 +1,6 @@
 # Título
 
-Hola, me llamo Alejandro, y voy a presentarles "Al Loro: Lector de feeds RSS para asistente de voz".
+Hola, me llamo Alejandro, y voy a presentar "Al Loro: Lector de feeds RSS para asistente de voz".
 
 # Índice
 
