@@ -1,15 +1,21 @@
-# :es: Al Loro - Defensa
+# :es: Al Loro - Defensa / :uk: Feed The Parrot - Presentation
 
-Esta fue la defensa para mi trabajo de fin de grado, llamado "Al Loro - Lector de feeds RSS para asistente de voz".
+:es: Esta fue la defensa para mi trabajo de fin de grado, llamado "Al Loro - Lector de feeds RSS para asistente de voz".
 
-- [Diapositivas](defensa.pdf)
-- [Guión](script.md)
-
-# :uk: Feed The Parrot - Presentation
-
-This was the presentation for my final degree project, called "Feed The Parrot - RSS feed reader for voice assistant".
+:uk: This was the presentation for my final degree project, called "Feed The Parrot - RSS feed reader for voice assistant".
 
 *(Note: both the slideshow and script are only available in Spanish)*
 
-- [Slideshow](defensa.pdf)
-- [Script](script.md)
+- [Diapositivas / Slideshow](defensa.pdf)
+- [Guión / Script](script.md)
+
+
+## Enlaces relacionados / Related links
+
+- [Skill](https://github.com/algono/FeedTheParrot-RSS)
+- [App](https://github.com/algono/feed_the_parrot_app)
+- [Autenticación / Auth](https://github.com/algono/feed-the-parrot-auth)
+- [(Antigua) Autenticación / (Old) Auth](https://github.com/algono/feed-the-parrot-auth-old)
+- Memoria / Paper
+  - PDF (aún no está disponible / not available yet)
+  - [Fuente / Source](https://github.com/algono/feed-the-parrot-memoria)
