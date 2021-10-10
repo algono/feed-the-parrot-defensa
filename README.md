@@ -17,5 +17,5 @@
 - [Autenticación / Auth](https://github.com/algono/feed-the-parrot-auth)
 - [(Antigua) Autenticación / (Old) Auth](https://github.com/algono/feed-the-parrot-auth-old)
 - Memoria / Paper
-  - PDF (aún no está disponible / not available yet)
+  - [PDF](http://hdl.handle.net/10251/174256)
   - [Fuente / Source](https://github.com/algono/feed-the-parrot-memoria)
